@@ -21,3 +21,38 @@ columns 1
 ```
 
 OBSERVAÇÃO: Para acessar a listagem oficial clique neste [**link**](https://owasp.org/API-Security/editions/2023/en/0x11-t10/).
+
+### API4:2023 - Unrestricted Resource Consumption
+
+Mindmap com recomendações e pontos importantes neste item:
+
+```mermaid
+mindmap
+  root["API4:2023 - Unrestricted Resource Consumption"]
+    Problemas comuns
+      Item1["High CPU Usage"]
+      Item2["Memory Leaks"]
+      Item3["Excessive Network Bandwidth"]
+    Policies
+      Element1["API Rate Limiting"]
+      Element2["Resource Quotas"]
+      Element3["Timeouts"]
+    Ferramentas
+      Ferramenta1["Prometheus"]
+      Ferramenta2["Grafana"]
+      Ferramenta3["New Relic"]
+      Ferramenta4["Application Insights"]
+      Ferramenta5["Datadog"]
+      Ferramenta6["Grafana"]
+    API Gateways
+      Gateway1["Azure API Management"]
+      Gateway2["Kong"]
+      Gateway3["Apigee"]
+      Gateway4["Amazon API Gateway"]
+      Gateway5["Ocelot"]
+    Recomendações
+      Recomendação1["Implementar Rate Limiting"]
+      Recomendação2["Monitorar Uso de Recursos"]
+      Recomendação3["Configurar Alertas de Uso Excessivo"]
+      Recomendação4["Realizar Testes de Carga"]
+```
